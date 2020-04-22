@@ -6,10 +6,11 @@ package cn.jiyun.pojo;
  * @date 2020/4/22 - 12:40
  */
 public class User {
-    private String uid;
+    private Integer uid;
     private String usex;
     private String uaddress;
     private String uHobby;
+    private String uDo;
 
     public String getUid() {
         return uid;
