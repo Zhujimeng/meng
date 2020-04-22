@@ -9,6 +9,7 @@ public class User {
     private String uid;
     private String usex;
     private String uaddress;
+    private String uHobby;
 
     public String getUid() {
         return uid;
