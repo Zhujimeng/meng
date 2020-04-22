@@ -33,4 +33,13 @@ public class User {
     public void setUaddress(String uaddress) {
         this.uaddress = uaddress;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "uid='" + uid + '\'' +
+                ", usex='" + usex + '\'' +
+                ", uaddress='" + uaddress + '\'' +
+                '}';
+    }
 }
